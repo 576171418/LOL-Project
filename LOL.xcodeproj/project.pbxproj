@@ -14,6 +14,14 @@
 		4F7A7A8E223654BE0021576D /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A7A8D223654BE0021576D /* CustomAlertView.swift */; };
 		4F7A7DDB2237A88F0021576D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A7DDA2237A88F0021576D /* ChatViewController.swift */; };
 		4F7A7DDD2237B2AE0021576D /* FSCAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A7DDC2237B2AE0021576D /* FSCAlertView.swift */; };
+		4F95F78D22452CB200189BF6 /* HeroRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F95F78C22452CB200189BF6 /* HeroRealm.swift */; };
+		4FAA827D2249D40100D22A12 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA827C2249D40100D22A12 /* Networking.swift */; };
+		4FAA8287224B1F5200D22A12 /* CustomNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA8286224B1F5200D22A12 /* CustomNetWorking.swift */; };
+		4FAA8292224B258000D22A12 /* CityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA828E224B258000D22A12 /* CityInfo.swift */; };
+		4FAA8293224B258000D22A12 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA828F224B258000D22A12 /* Data.swift */; };
+		4FAA8294224B258000D22A12 /* Weahter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA8290224B258000D22A12 /* Weahter.swift */; };
+		4FAA8295224B258000D22A12 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA8291224B258000D22A12 /* Forecast.swift */; };
+		4FB81FDC2244BED70016458C /* HTMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB81FDB2244BED70016458C /* HTMLElement.swift */; };
 		4FBE9538223E894A00979D33 /* HeroStrengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBE9537223E894A00979D33 /* HeroStrengthViewController.swift */; };
 		4FBE959D223E8E4300979D33 /* AAOptionsConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBE9595223E8E4300979D33 /* AAOptionsConstructor.swift */; };
 		4FBE959E223E8E4300979D33 /* AAChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBE9596223E8E4300979D33 /* AAChartView.swift */; };
@@ -47,6 +55,14 @@
 		4F7A7A8D223654BE0021576D /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		4F7A7DDA2237A88F0021576D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		4F7A7DDC2237B2AE0021576D /* FSCAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCAlertView.swift; sourceTree = "<group>"; };
+		4F95F78C22452CB200189BF6 /* HeroRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRealm.swift; sourceTree = "<group>"; };
+		4FAA827C2249D40100D22A12 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		4FAA8286224B1F5200D22A12 /* CustomNetWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNetWorking.swift; sourceTree = "<group>"; };
+		4FAA828E224B258000D22A12 /* CityInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityInfo.swift; sourceTree = "<group>"; };
+		4FAA828F224B258000D22A12 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4FAA8290224B258000D22A12 /* Weahter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weahter.swift; sourceTree = "<group>"; };
+		4FAA8291224B258000D22A12 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		4FB81FDB2244BED70016458C /* HTMLElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLElement.swift; sourceTree = "<group>"; };
 		4FBE9537223E894A00979D33 /* HeroStrengthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStrengthViewController.swift; sourceTree = "<group>"; };
 		4FBE9595223E8E4300979D33 /* AAOptionsConstructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAOptionsConstructor.swift; sourceTree = "<group>"; };
 		4FBE9596223E8E4300979D33 /* AAChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAChartView.swift; sourceTree = "<group>"; };
@@ -87,7 +103,9 @@
 		4F4DB9C5223D3D6600C4DCB4 /* Help */ = {
 			isa = PBXGroup;
 			children = (
+				4FAA827C2249D40100D22A12 /* Networking.swift */,
 				4F4DB9C6223D3D7B00C4DCB4 /* FSCGCDTimer.swift */,
+				4FAA8286224B1F5200D22A12 /* CustomNetWorking.swift */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -123,7 +141,13 @@
 		4F7A7DE02238B5640021576D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4FAA828E224B258000D22A12 /* CityInfo.swift */,
+				4FAA828F224B258000D22A12 /* Data.swift */,
+				4FAA8291224B258000D22A12 /* Forecast.swift */,
+				4FAA8290224B258000D22A12 /* Weahter.swift */,
 				4FC1D6542233A680001C2F86 /* Hero.swift */,
+				4FB81FDB2244BED70016458C /* HTMLElement.swift */,
+				4F95F78C22452CB200189BF6 /* HeroRealm.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,6 +319,10 @@
 				"${PODS_ROOT}/Hyphenate/iOS_Pods_IMFullSDK_V3.5.3/Hyphenate.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -307,6 +335,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hyphenate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -348,6 +380,7 @@
 				4FBE959D223E8E4300979D33 /* AAOptionsConstructor.swift in Sources */,
 				4F4DB9C9223DFC2B00C4DCB4 /* ScollLabelView.swift in Sources */,
 				4FBE95A3223E8E4300979D33 /* AAGradientColor.swift in Sources */,
+				4FAA827D2249D40100D22A12 /* Networking.swift in Sources */,
 				4F7A7DDD2237B2AE0021576D /* FSCAlertView.swift in Sources */,
 				4F7A7A8E223654BE0021576D /* CustomAlertView.swift in Sources */,
 				4FC1D6552233A680001C2F86 /* Hero.swift in Sources */,
@@ -355,16 +388,23 @@
 				4FC1D6572233B575001C2F86 /* DetailCell.swift in Sources */,
 				4FBE95A2223E8E4300979D33 /* AAColor.swift in Sources */,
 				4F4DB9CD223E2DAE00C4DCB4 /* FSCCyclyView.swift in Sources */,
+				4FAA8292224B258000D22A12 /* CityInfo.swift in Sources */,
 				4FBE95A0223E8E4300979D33 /* AASerializable.swift in Sources */,
+				4F95F78D22452CB200189BF6 /* HeroRealm.swift in Sources */,
 				4FBE95A1223E8E4300979D33 /* AASeriesElement.swift in Sources */,
+				4FAA8294224B258000D22A12 /* Weahter.swift in Sources */,
 				4F4DB9C7223D3D7B00C4DCB4 /* FSCGCDTimer.swift in Sources */,
+				4FAA8293224B258000D22A12 /* Data.swift in Sources */,
 				4FC1D6532233A447001C2F86 /* HeroCardCell.swift in Sources */,
+				4FAA8295224B258000D22A12 /* Forecast.swift in Sources */,
 				4FDD16452234F34A0055C47C /* NewHeroViewController.swift in Sources */,
 				4FBE959E223E8E4300979D33 /* AAChartView.swift in Sources */,
 				4F7A7DDB2237A88F0021576D /* ChatViewController.swift in Sources */,
 				4FC1D63C22339E3A001C2F86 /* AppDelegate.swift in Sources */,
 				4FC1D64F2233A3A1001C2F86 /* UIViewHelper.swift in Sources */,
+				4FB81FDC2244BED70016458C /* HTMLElement.swift in Sources */,
 				4FC1D65D2233CF68001C2F86 /* RateViewController.swift in Sources */,
+				4FAA8287224B1F5200D22A12 /* CustomNetWorking.swift in Sources */,
 				4FBE9538223E894A00979D33 /* HeroStrengthViewController.swift in Sources */,
 				4FC1D6592233B612001C2F86 /* DetailViewController.swift in Sources */,
 				4FBE959F223E8E4300979D33 /* AAChartModel.swift in Sources */,

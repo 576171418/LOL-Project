@@ -30,4 +30,9 @@ struct Hero: Codable {
     var rate = ""
     
     var heroStrength = [0.5,0.5,0.5,0.5,0.5]
+    
+    func heroRealmToHero(heroRealm: HerRealm) {
+        
+    }
+    
 }

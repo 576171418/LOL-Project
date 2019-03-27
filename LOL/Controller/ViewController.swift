@@ -7,6 +7,7 @@
 //
 import UIKit
 import MJRefresh
+import RealmSwift
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, NewHeroDelegate {
 
@@ -49,7 +50,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //下拉刷新的相关设置
         header.setRefreshingTarget(self, refreshingAction: #selector(self.refresh))
         self.tableView.mj_header = header
-                
+     
+        //写入数据至realm
+//        let realm = try! Realm()
+//        print(realm.configuration)
+//        let items = realm.objects(HerRealm.self)
+//        if items.count > 0 {
+//            return
+//        }
+//        let hero = HerRealm.init(value: ["name": heros[0].name, "type": heros[0].type, "origin": heros[0].origin, "image": heros[0].image, "favorite": heros[0].favorite, "range": heros[0].range, "mv": heros[0].mv, "heroDescription": heros[0].description, "rate": heros[0].rate])
+//        try! realm.write {
+//            realm.add(hero)
+//        }
     }
     
     @objc func refresh() {

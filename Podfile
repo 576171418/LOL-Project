@@ -9,4 +9,7 @@ pod 'SwiftyJSON'
 pod 'Kingfisher'
 pod 'SideMenu'
 #pod 'AAInfographics'
+pod 'Realm'
+pod 'RealmSwift'
+pod 'Moya'
 end

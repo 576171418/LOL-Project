@@ -8,6 +8,9 @@
 
 import UIKit
 import Hyphenate
+import Alamofire
+import Moya
+import SwiftyJSON
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -33,6 +36,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            }
 //            
 //        })
+        
+//        let managerProvider = MoyaProvider<ApiManager>()
+//        managerProvider.request(.getUserData) { (result) in
+//            switch result {
+//            case let .success(moyaResponse):
+//                print(moyaResponse)
+//                break
+//            case let .failure(error):
+//                break
+//            }
+//        }
+        
+        Alamofire.request(Router.getWeatherData).responseJSON { (response) in
+            print(response)
+        }
         
         return true
     }
